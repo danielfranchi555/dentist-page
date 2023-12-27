@@ -14,7 +14,7 @@ const HeroSmall = () => {
                     width={50}
                     height={50}
                 />
-                <span className='text-[#00296D] text-2xl w-full font-bold text-1xl flex justify-center lg:text-2xl'>Direccion</span>
+                <span className='text-[#00296D] text-1xl w-full font-bold  flex justify-center lg:text-2xl'>Direccion</span>
                 <div className='w-full flex flex-col items-center  lg:items-start lg:max-w-[300px]' >
                     <p className='text-[#00296D]'>Av.Color 1560</p>
                     <p className='text-[#00296D]'>Cordoba Capital</p>
@@ -27,7 +27,7 @@ const HeroSmall = () => {
                     height={50}
                     className=' '
                 />
-                <span className=' text-2xl text-[#00296D] font-bold text-1xl w-full text-center lg:text-2xl md:text-1xl  lg:w-full'>Telefono</span>
+                <span className='  text-[#00296D] font-bold text-1xl w-full text-center lg:text-2xl md:text-1xl  lg:w-full'>Telefono</span>
                 <div className='flex flex-col items-center w-full lg:items-start'>
                     <p className='text-[#00296D]'>351 7608XXX</p>
                     <p className='text-[#00296D]'>351 7608XXX</p>
@@ -40,7 +40,7 @@ const HeroSmall = () => {
                     height={50}
                     className=''
                 />
-                <span className=' text-2xl  text-[#00296D] font-bold text-1xl w-full text-center lg:text-2xl'>Email</span>
+                <span className='   text-[#00296D] font-bold text-1xl w-full text-center lg:text-2xl'>Email</span>
                 <div className='w-full flex flex-col items-center lg:items-start'>
                     <p className=' text-[#00296D]'>info@tudentista.com.ar</p>
                     <p className=' text-[#00296D]'>info@tudentista.com.ar</p>

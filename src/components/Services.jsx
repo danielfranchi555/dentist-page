@@ -17,7 +17,7 @@ const Services = () => {
             <span className='text-[#2977D5]'>Especialidades</span>
             <h2 className='text-[#00296D] text-4xl font-bold'>Nuestros Servicios</h2>
             <section className='grid md:grid md:grid-cols-3 gap-4'>
-                <div className='border shadow-lg px-5 py-5 mt-5 flex flex-col gap-5 rounded-lg w-[400px] h-[400px]'>
+                <div className='border shadow-lg px-5 py-5 mt-5 flex flex-col gap-5 rounded-lg'>
                     <Image
                         src={imagenUno}
                         width={100}
@@ -36,7 +36,7 @@ const Services = () => {
                          />
                     </div>
                 </div>
-                <div className='border shadow-lg px-5 py-5 mt-5 flex flex-col gap-5 rounded-lg  w-[400px] h-[400px]'>
+                <div className='border shadow-lg px-5 py-5 mt-5 flex flex-col gap-5 rounded-lg '>
                     <Image
                         src={imagenDos}
                         width={100}
@@ -55,7 +55,7 @@ const Services = () => {
                          />
                     </div>
                 </div>
-                <div className='border shadow-lg px-5 py-5 mt-5 flex flex-col gap-5 rounded-lg  w-[400px] h-[400px]'>
+                <div className='border shadow-lg px-5 py-5 mt-5 flex flex-col gap-5 rounded-lg '>
                     <Image
                         src={imagenTres}
                         width={100}
@@ -74,7 +74,7 @@ const Services = () => {
                          />
                     </div>
                 </div>
-                <div className='border shadow-lg px-5 py-5 mt-5 flex flex-col gap-5 rounded-lg  w-[400px] h-[400px]'>
+                <div className='border shadow-lg px-5 py-5 mt-5 flex flex-col gap-5 rounded-lg '>
                     <Image
                         src={imagenCuatro}
                         width={100}
@@ -93,7 +93,7 @@ const Services = () => {
                          />
                     </div>
                 </div>
-                <div className='border shadow-lg px-5 py-5 mt-5 flex flex-col gap-5 rounded-lg  w-[400px] h-[400px]'>
+                <div className='border shadow-lg px-5 py-5 mt-5 flex flex-col gap-5 rounded-lg '>
                     <Image
                         src={imagenCinco}
                         width={100}
@@ -112,7 +112,7 @@ const Services = () => {
                          />
                     </div>
                 </div>
-                <div className='border shadow-lg px-5 py-5 mt-5 flex flex-col gap-5 rounded-lg  w-[400px] h-[400px]'>
+                <div className='border shadow-lg px-5 py-5 mt-5 flex flex-col gap-5 rounded-lg '>
                     <Image
                         src={imagenSeis}
                         width={100}

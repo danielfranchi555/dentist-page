@@ -10,7 +10,7 @@ module.exports = {
       backgroundImage: { 
         "menu": "url('../../public/menu-04.svg')",
         "hero-image": "url('../images/bg-hero.png')",
-        "doctora": "url('../images/doctora-figma.png')"
+        "doctora": "url('../images/doctora-figma.png')",
 
 
       },

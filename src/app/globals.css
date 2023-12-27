@@ -34,3 +34,12 @@
 .slick-slide > div{
   margin: 0 10px;
 }
+
+.formulario{
+  background: rgb(124,167,191);
+background: linear-gradient(180deg, rgba(124,167,191,1) 7%, rgba(132,176,199,1) 19%, rgba(255, 255, 255, 0.271) 96%, rgba(209, 232, 247, 0.344) 100%, rgba(59,157,221,1) 100%);            
+}
+
+.contact{
+  background-color: rgba(212, 228, 244, 0.4);
+}
