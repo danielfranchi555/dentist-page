@@ -12,7 +12,7 @@ const Hero = () => {
           width={600}
           height={500}
           alt='imagen-hero'
-          className='md:w-full'
+          className='md:w-full md:pt-10'
         />
       </section>
 
@@ -28,8 +28,8 @@ const Hero = () => {
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt molestias hic doloribus, laborum veniam dignissimos rerum eos accusantium officia, est dicta odio voluptatibus, non reprehenderit ducimus enim sunt recusandae aut?
         </p>
 
-        <div className='flex flex-col lg:flex-row gap-4 lg:gap-6 lg:justify-between'>
-          <a href="" className='bg-[#44C6E9] px-5 py-3 rounded-md text-white text-center '>
+        <div className='flex flex-col lg:flex-row gap-4 lg:gap-6 '>
+          <a href="" className='bg-[#44C6E9] shadow-md px-5 py-3 rounded-md text-white text-center '>
             Saca tu turno
           </a>
           <a href="" className='text-[#777777] px-5 py-3 border rounded-md text-center '>
