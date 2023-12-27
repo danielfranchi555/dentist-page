@@ -13,15 +13,15 @@ const Preguntas = () => {
 
 
   return (
-    <div className='w-[90%] mx-auto grid gap-5 mt-16'>
-      <h2 className='text-center text-5xl text-[#00296D] font-bold'>Preguntas Frecuentes</h2>
+    <div className='w-[90%] mx-auto grid gap-5 mt-10'>
+      <h2 className='text-center text-3xl text-[#00296D] font-bold'>Preguntas Frecuentes</h2>
       {/* Primer acordeón */}
       <div className=" bg-white rounded-lg px-10 py-5">
         <button
           onClick={() => setAccordionOpen1(!accordionOpen1)}
           className="flex justify-between w-full"
         >
-          <span className='text-1xl lg:text-2xl'>¿Qué Obras sociales aceptan?</span>
+          <span className='text-1xl lg:text-1xl'>¿Qué Obras sociales aceptan?</span>
           <svg
             className="fill-indigo-500 shrink-0 ml-8"
             width="16"
@@ -58,7 +58,7 @@ const Preguntas = () => {
           onClick={() => setAccordionOpen2(!accordionOpen2)}
           className="flex justify-between w-full"
         >
-          <span className='text-1xl lg:text-2xl'>¿Qué Obras sociales aceptan?</span>
+          <span className='text-1xl lg:text-1xl'>¿Qué Obras sociales aceptan?</span>
           <svg
             className="fill-indigo-500 shrink-0 ml-8"
             width="16"
@@ -91,7 +91,7 @@ const Preguntas = () => {
           onClick={() => setAccordionOpen3(!accordionOpen3)}
           className="flex justify-between w-full"
         >
-          <span className='text-1xl lg:text-2xl'>¿Qué Obras sociales aceptan?</span>
+          <span className='text-1xl lg:text-1xl'>¿Qué Obras sociales aceptan?</span>
           <svg
             className="fill-indigo-500 shrink-0 ml-8"
             width="16"
@@ -124,7 +124,7 @@ const Preguntas = () => {
           onClick={() => setAccordionOpen4(!accordionOpen4)}
           className="flex justify-between w-full"
         >
-          <span className='text-1xl lg:text-2xl' >¿Qué Obras sociales aceptan?</span>
+          <span className='text-1xl lg:text-1xl' >¿Qué Obras sociales aceptan?</span>
           <svg
             className="fill-indigo-500 shrink-0 ml-8"
             width="16"
@@ -157,7 +157,7 @@ const Preguntas = () => {
           onClick={() => setAccordionOpen5(!accordionOpen5)}
           className="flex justify-between w-full"
         >
-          <span className='text-1xl lg:text-2xl'>¿Qué Obras sociales aceptan?</span>
+          <span className='text-1xl lg:text-1xl'>¿Qué Obras sociales aceptan?</span>
           <svg
             className="fill-indigo-500 shrink-0 ml-8"
             width="16"

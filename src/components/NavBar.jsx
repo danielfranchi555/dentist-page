@@ -3,6 +3,7 @@ import Image from 'next/image'
 import React from 'react'
 import logo from '../../public/logo.svg'
 import { useState } from 'react'
+import burguer from '../../public/button-burguer.svg'
 import Button from './Button'
 
 const NavBar = () => {
@@ -28,19 +29,25 @@ const NavBar = () => {
           className=''
           />
             <div className='flex flex-col  w-full text-center lg:text-start'>
-                <h1 className=' md:text-2xl'>Odontologia Integral</h1>
-                <span>Salud y Estetica Integral</span>
+                <h1 className='text-sm md:text-1xl'>Odontologia Integral</h1>
+                <span className='text-sm'>Salud y Estetica Integral</span>
             </div>
         </div>
         
         <div onClick={()=>setOpen(!open)} className='text-3xl absolute right-8 top-6 cursor-pointer  md:hidden'>
-        {/* <ion-icon name={open ? 'close':'menu'}></ion-icon> */}
+          <Image
+          src={burguer}
+          width={30}
+          height={20}
+          alt='icon'
+          />
+         {/* <ion-icon name={open ? 'close':'menu'}></ion-icon> */}
         </div>
   
         <ul className={`md:flex md:items-center   md:pb-0 pb-12 absolute md:static bg-white md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${open ? 'top-20 ':'top-[-490px]'}`}>
           {
             Links.map((link)=>(
-              <li key={link.name} className='md:ml-8 text-xl md:my-0 my-7'>
+              <li key={link.name} className='md:ml-8 text-sm md:my-0 my-7'>
                 <a href={link.link} className='text-gray-800 hover:text-gray-400 duration-500'>{link.name}</a>
               </li>
             ))

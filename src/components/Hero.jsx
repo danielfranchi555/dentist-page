@@ -20,7 +20,7 @@ const Hero = () => {
 
         <p className='text-[#2977D5]'>En Córdoba Capital</p>
 
-        <h2 className='text-[#00296D] text-5xl md:text-5xl lg:text-7xl'>
+        <h2 className='text-[#00296D] text-5xl md:text-3xl lg:text-5xl'>
           Una excelente experiencia <span className='text-[#44C6E9]'>Odontológica</span>
         </h2>
 
