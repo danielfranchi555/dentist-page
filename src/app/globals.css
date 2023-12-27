@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+#body{
+  background: rgb(255,255,255);
+  background: linear-gradient(180deg, rgba(255,255,255,1) 75%, rgba(209,232,247,1) 100%, rgba(59,157,221,1) 100%);
+}
+.nav{
+  @apply  flex items-center justify-between  
+}
+.item{
+  @apply relative tracking-[-1px] cursor-pointer
+}
+.item::after{
+  @apply content-[''] bg-[#3154E2] h-[3px] w-[0%] left-0 -bottom-[5px]
+  rounded-xl absolute duration-300
+}
+.item:hover::after{
+  @apply w-[100%] 
+}
+@keyframes show{
+  from{
+      opacity: 0;
+      scale: 25%;
+  }
+  to{
+   opacity: 1;
+   scale: 100%;
+  }
+}
+
+.slick-slide > div{
+  margin: 0 10px;
+}
